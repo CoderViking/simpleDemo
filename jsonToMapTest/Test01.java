@@ -1,4 +1,4 @@
-package jsonToMapTest;
+﻿package jsonToMapTest;
 
 /**
  * @Author: yanshuai
@@ -30,7 +30,7 @@ public class Test01 {
     public static String userAgent =  "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Safari/537.36";
 
     //配置您申请的KEY
-    public static final String APPKEY ="3463b4facd7bc1df3a82f9857da51328";
+    public static final String APPKEY ="your appkey";
 
     //1.站到站查询（含票价）
     public static void getRequest1(){
