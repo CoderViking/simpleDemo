@@ -1,0 +1,6 @@
+git init  			//初始化本地仓库
+git add <file> 			//添加要提交的文件/目录
+git commit -m "注释" 		//提交文件到仓库
+git remote add origin https:	//github.com/CoderViking/Test
+git pull origin master		//从远程仓库更新文件到本地仓库
+git push origin master 		//将本地仓库提交的文件上传到远程仓库
