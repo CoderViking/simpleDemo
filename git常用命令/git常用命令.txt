@@ -1,3 +1,14 @@
+创建SSH Key
+ssh-keygen -t rsa -b 4096 -C 'yourEmail@example.com' 
+
+查看本地ssh私钥
+ ls -al ~/.ssh
+
+配置本地信息
+git config –global user.name ‘账号名’ 
+git config –global user.email 邮箱 
+git config –list 查看配置结果
+
 初始化一个版本仓库
 git init
 
