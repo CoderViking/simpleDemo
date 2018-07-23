@@ -1,3 +1,17 @@
+创建SSH Key
+ssh-keygen -t rsa -b 4096 -C 'yourEmail@example.com' 
+
+查看本地ssh私钥
+ ls -al ~/.ssh
+
+连接秘钥
+ssh git@github.com
+
+配置本地信息
+git config –global user.name '名称'
+git config –global user.email '邮箱'
+git config –list 		//查看配置结果
+
 git init  			//初始化本地仓库
 git add <file> 			//添加要提交的文件/目录
 git commit -m "注释" 		//提交文件到仓库
