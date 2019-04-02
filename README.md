@@ -2,9 +2,9 @@
 	
 		This is a simple demo for use the GitHub
 		Something has been change
-		ÕâÊÇÒ»¸ö¼òµ¥µÄ²âÊÔ°¸Àı£¬ÓÃÓÚ²âÊÔgitµÄ²Ù×÷Ö¸Áî
-		ÏÖÔÚÒªÔÚÏÂÃæÌí¼ÓÒ»ÕÅÍ¼Æ¬
- ![Image text](https://github.com/CoderViking/simpleDemo/raw/master/readmepicture/hardworking.gif)
+		è¿™æ˜¯ä¸€ä¸ªç®€å•çš„æµ‹è¯•æ¡ˆä¾‹ï¼Œç”¨äºæµ‹è¯•gitçš„æ“ä½œæŒ‡ä»¤
+		ç°åœ¨è¦åœ¨ä¸‹é¢æ·»åŠ ä¸€å¼ å›¾ç‰‡
+ ![Image text](https://github.com/CoderViking/simpleDemo/raw/master/readmepicture/hardworking.gif "å›¾ç‰‡çš„æç¤ºä¿¡æ¯")
 		
 	
 
