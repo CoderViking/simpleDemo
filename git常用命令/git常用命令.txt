@@ -1,80 +1,80 @@
-´´½¨SSH Key
+åˆ›å»ºSSH Key
 ssh-keygen -t rsa -b 4096 -C 'yourEmail@example.com' 
 
-²é¿´±¾µØsshË½Ô¿
+æŸ¥çœ‹æœ¬åœ°sshç§é’¥
  ls -al ~/.ssh
 
-ÅäÖÃ±¾µØĞÅÏ¢
-git config ¨Cglobal user.name ¡®ÕËºÅÃû¡¯ 
-git config ¨Cglobal user.email ÓÊÏä 
-git config ¨Clist ²é¿´ÅäÖÃ½á¹û
+é…ç½®æœ¬åœ°ä¿¡æ¯
+git config â€“global user.name â€˜è´¦å·åâ€™ 
+git config â€“global user.email é‚®ç®± 
+git config â€“list æŸ¥çœ‹é…ç½®ç»“æœ
 
-³õÊ¼»¯Ò»¸ö°æ±¾²Ö¿â
+åˆå§‹åŒ–ä¸€ä¸ªç‰ˆæœ¬ä»“åº“
 git init
 
-CloneÔ¶³Ì°æ±¾¿â
-git clone yourgitaddress(ÄãµÄgitµØÖ·)
+Cloneè¿œç¨‹ç‰ˆæœ¬åº“
+git clone yourgitaddress(ä½ çš„gitåœ°å€)
 
-Ìí¼ÓÔ¶³Ì°æ±¾¿âorigin
-git remote add origin yourgitaddress(ÄãµÄgitµØÖ·)
+æ·»åŠ è¿œç¨‹ç‰ˆæœ¬åº“origin
+git remote add origin yourgitaddress(ä½ çš„gitåœ°å€)
 
-²é¿´Ô¶³Ì²Ö¿â
+æŸ¥çœ‹è¿œç¨‹ä»“åº“
 git remote -v 
 
-Ìí¼Óµ±Ç°ĞŞ¸ÄµÄÎÄ¼şµ½Ôİ´æÇø
+æ·»åŠ å½“å‰ä¿®æ”¹çš„æ–‡ä»¶åˆ°æš‚å­˜åŒº
 git add .
 
-Èç¹ûÄã×Ô¶¯×·×ÙÎÄ¼ş£¬°üÀ¨ÄãÒÑ¾­ÊÖ¶¯É¾³ıµÄ£¬×´Ì¬ÎªDeletedµÄÎÄ¼ş
+å¦‚æœä½ è‡ªåŠ¨è¿½è¸ªæ–‡ä»¶ï¼ŒåŒ…æ‹¬ä½ å·²ç»æ‰‹åŠ¨åˆ é™¤çš„ï¼ŒçŠ¶æ€ä¸ºDeletedçš„æ–‡ä»¶
 git add -u
 
-Ìá½»ÄãµÄĞŞ¸Ä
-git commit ¨Cm &quot;ÄãµÄ×¢ÊÍ&quot;
+æäº¤ä½ çš„ä¿®æ”¹
+git commit â€“m &quot;ä½ çš„æ³¨é‡Š&quot;
 
-ÍÆËÍÄãµÄ¸üĞÂµ½Ô¶³Ì·şÎñÆ÷,Óï·¨Îª git push [Ô¶³ÌÃû] [±¾µØ·ÖÖ§]:[Ô¶³Ì·ÖÖ§]
+æ¨é€ä½ çš„æ›´æ–°åˆ°è¿œç¨‹æœåŠ¡å™¨,è¯­æ³•ä¸º git push [è¿œç¨‹å] [æœ¬åœ°åˆ†æ”¯]:[è¿œç¨‹åˆ†æ”¯]
 git push origin master
 
-²é¿´ÎÄ¼ş×´Ì¬
+æŸ¥çœ‹æ–‡ä»¶çŠ¶æ€
 git status
 
-¸ú×ÙĞÂÎÄ¼ş
+è·Ÿè¸ªæ–°æ–‡ä»¶
 git add readme.txt
 
-´Óµ±Ç°¸ú×ÙÁĞ±íÒÆ³ıÎÄ¼ş£¬²¢ÍêÈ«É¾³ı
+ä»å½“å‰è·Ÿè¸ªåˆ—è¡¨ç§»é™¤æ–‡ä»¶ï¼Œå¹¶å®Œå…¨åˆ é™¤
 git rm readme.txt
 
-½öÔÚÔİ´æÇøÉ¾³ı£¬±£ÁôÎÄ¼şÔÚµ±Ç°Ä¿Â¼£¬²»ÔÙ¸ú×Ù
-git rm ¨Ccached readme.txt
+ä»…åœ¨æš‚å­˜åŒºåˆ é™¤ï¼Œä¿ç•™æ–‡ä»¶åœ¨å½“å‰ç›®å½•ï¼Œä¸å†è·Ÿè¸ª
+git rm â€“cached readme.txt
 
-ÖØÃüÃûÎÄ¼ş
+é‡å‘½åæ–‡ä»¶
 git mv reademe.txt readme
 
-²é¿´Ìá½»µÄÀúÊ·¼ÇÂ¼
+æŸ¥çœ‹æäº¤çš„å†å²è®°å½•
 git log
 
-ĞŞ¸Ä×îºóÒ»´ÎÌá½»×¢ÊÍµÄ£¬ÀûÓÃ¨Camend²ÎÊı
-git checkout ¨C- readme.txt
+ä¿®æ”¹æœ€åä¸€æ¬¡æäº¤æ³¨é‡Šçš„ï¼Œåˆ©ç”¨â€“amendå‚æ•°
+git checkout â€“- readme.txt
 
-»ù±¾µÄ·ÖÖ§¹ÜÀí
-´´½¨Ò»¸ö·ÖÖ§
+åŸºæœ¬çš„åˆ†æ”¯ç®¡ç†
+åˆ›å»ºä¸€ä¸ªåˆ†æ”¯
 git branch workspace
 
-ÇĞ»»¹¤×÷Ä¿Â¼µ½workspace
-git chekcout workspace
+åˆ‡æ¢å·¥ä½œç›®å½•åˆ°workspace
+git checkout workspace
 
-½«ÉÏÃæµÄÃüÁîºÏÔÚÒ»Æğ£¬´´½¨workspace·ÖÖ§²¢ÇĞ»»µ½workspace
-git chekcout ¨Cb workspace
+å°†ä¸Šé¢çš„å‘½ä»¤åˆåœ¨ä¸€èµ·ï¼Œåˆ›å»ºworkspaceåˆ†æ”¯å¹¶åˆ‡æ¢åˆ°workspace
+git checkout â€“b workspace
 
-ºÏ²¢workspace·ÖÖ§£¬µ±Ç°¹¤×÷Ä¿Â¼Îªmaster
+åˆå¹¶workspaceåˆ†æ”¯ï¼Œå½“å‰å·¥ä½œç›®å½•ä¸ºmaster
 git merge workspace
 
-ºÏ²¢Íê³Éºó£¬Ã»ÓĞ³öÏÖ³åÍ»£¬É¾³ıworkspace·ÖÖ§
-git branch ¨Cd workspace
+åˆå¹¶å®Œæˆåï¼Œæ²¡æœ‰å‡ºç°å†²çªï¼Œåˆ é™¤workspaceåˆ†æ”¯
+git branch â€“d workspace
 
-À­È¥Ô¶³Ì²Ö¿âµÄÊı¾İ£¬Óï·¨Îª git fetch [remote-name]
+æ‹‰å»è¿œç¨‹ä»“åº“çš„æ•°æ®ï¼Œè¯­æ³•ä¸º git fetch [remote-name]
 git fetch
 
-fetch »áÀ­È¥×îĞÂµÄÔ¶³Ì²Ö¿âÊı¾İ£¬µ«²»»á×Ô¶¯µ½µ±Ç°Ä¿Â¼ÏÂ£¬Òª×Ô¶¯ºÏ²¢
+fetch ä¼šæ‹‰å»æœ€æ–°çš„è¿œç¨‹ä»“åº“æ•°æ®ï¼Œä½†ä¸ä¼šè‡ªåŠ¨åˆ°å½“å‰ç›®å½•ä¸‹ï¼Œè¦è‡ªåŠ¨åˆå¹¶
 git pull
 
-²é¿´Ô¶³Ì²Ö¿âµÄĞÅÏ¢
+æŸ¥çœ‹è¿œç¨‹ä»“åº“çš„ä¿¡æ¯
 git remote show origin
